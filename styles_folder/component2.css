@@ -6,14 +6,56 @@
 
 .second-component > div:first-child{
     align-items: center;
-    grid-template-columns:3px 50px 80px 50px 100px 100px 50px 50px 50px 50px;
+    grid-template-columns:3px 397px 94px 94px 116px 137px 84px 176px 39px 30px;
 }
 
 
-.nav > span:first-child{
+.nav > a:first-child{
+text-decoration: none;
 font-family: Poppins;
 font-size: 40px;
-font-weight: 900;
+font-weight: 800;
 grid-column-start: 2;
-letter-spacing: 2.6px;
+margin-bottom: 3px;
+color: white;
+}
+.nav > a:first-child::after{
+text-decoration: none;
+content: ".";
+font-size: 40px;
+color: #ee3364;
+}
+
+.bold-muli{
+    font-size: 18px;
+    font-family: 'Muli';
+    font-weight: bold;
+    margin-bottom: 10px;
+    letter-spacing: 0.1px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav >a:not(:first-child):hover{
+    color: #ee3364;
+}
+
+
+.bascket{
+    position: relative;
+}
+
+.bascket >span{
+    position: absolute;
+    font-size: 12px;
+    color: white;
+    background-color: red;
+    left: 10px;
+    top: 2px;
+    border-radius: 50%;
+    padding: 0.7px 5px 0.7px 5.5px;
+}
+
+.a img:last-child{
+    margin-bottom: 5px;
 }

@@ -10,8 +10,8 @@
 
 .allwrapper > div:first-child{
     background-image: url(../images_folder/bg\ shape.png);
-    background-size: auto 100%;
-    
+    background-size: auto 100%; 
+    min-width: 1170px;
 }
 
 .flex{
