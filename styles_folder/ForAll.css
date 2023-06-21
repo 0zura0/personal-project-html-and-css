@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.width{
+    width: 100vw;
+}
+
+.allwrapper > div:first-child{
+    background-image: url(../images_folder/bg\ shape.png);
+    background-size: auto 100%;
+    
+}
+
+.flex{
+    display: flex;
+}
+
+.center{
+    justify-content: center;
+}

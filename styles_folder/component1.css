@@ -1,0 +1,12 @@
+.first-component{
+    height: 50px;
+    background: rgba(0,0,0,0.5 );
+    border-bottom: 1px solid grey;
+
+}
+
+.first-component >div:first-child{
+    width: 1170px;
+    /* background-color: red; */
+    height: 100%;
+}
