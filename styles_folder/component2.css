@@ -3,3 +3,17 @@
     background: rgba(0,0,0,0.4 );
     box-shadow: 0px 20px 80px #00000026;
 }
+
+.second-component > div:first-child{
+    align-items: center;
+    grid-template-columns:3px 50px 80px 50px 100px 100px 50px 50px 50px 50px;
+}
+
+
+.nav > span:first-child{
+font-family: Poppins;
+font-size: 40px;
+font-weight: 900;
+grid-column-start: 2;
+letter-spacing: 2.6px;
+}

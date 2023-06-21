@@ -6,7 +6,39 @@
 }
 
 .first-component >div:first-child{
-    width: 1170px;
-    /* background-color: red; */
     height: 100%;
+    grid-template-columns: 43px 204px 30px 763px 29px 34px 15px 27px 15px;
+    align-items: center;
+}
+.fa-envelope{
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+.mailspan{
+    letter-spacing: 0.2px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+.mailspan, .numberspam{
+    font-family: muli;
+    font-size: 15px;
+}
+.numberspam{
+    letter-spacing: 0.38px;
+    margin-bottom: 2.5px;
+}
+.fa-facebook-f{
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+.margin-bottom{
+    margin-bottom: 2.5px;
+}
+.color{
+    color: white;
+    opacity: 0.4;
+}
+.fa-plus{
+    font-size: 9px;
+    margin-bottom: 4px;
 }

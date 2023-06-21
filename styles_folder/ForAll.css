@@ -17,7 +17,17 @@
 .flex{
     display: flex;
 }
+.horisonta-size{
+    width: 1170px;
+}
 
+.grid{
+    display: grid;
+}
 .center{
     justify-content: center;
+}
+
+.space-areound{
+    justify-content: space-around;
 }
