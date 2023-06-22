@@ -32,7 +32,6 @@ font-weight: normal;
     width: 84px;
     height: 84px;
     border-radius: 50%;
-    background-color: red;
     position: relative;
     grid-row-start: 2;
     grid-column-start: 2;
@@ -40,7 +39,6 @@ font-weight: normal;
 .cont img{
     height: 55px;
     width: 55px;
-    color: red;
     padding: 10px;
     position: absolute;
     top: 50%;
@@ -54,6 +52,7 @@ font-weight: normal;
     display: grid;
     grid-template-rows:42px 95px 56px 98px;
     grid-template-columns: 37px 5px 303px;
+    background-color: #EDF7FF;
 }
 
 .forth-component .cont h2{
@@ -88,5 +87,41 @@ font-weight: normal;
     padding-left: 2px;
     background-color: #ee3364;
     letter-spacing: 0.35px;
+    border: none;
 }
 
+.cont div:nth-child(2) img{
+    height: 60px;
+    width: 60px;
+    margin-left: 3px;
+    margin-top: 3px;
+} 
+
+.cont div:nth-child(2) h2{
+margin-left: 5px;
+}
+
+.cont div:nth-child(2) p{
+    margin-left: 9px;
+    margin-bottom: 1px;
+}
+
+.cont div:nth-child(3) img{
+    height: 50px;
+    width: 61px;
+    padding-right: 106px;
+} 
+
+
+.cont div:nth-child(3){
+    grid-template-rows:42px 95px 48px 98px;
+} 
+
+
+.forth-component .cont>div:hover{
+border: 3px solid #ee3364;
+}
+
+.forth-component .cont>div:hover .border{
+    background-color: #ee3364;
+    }

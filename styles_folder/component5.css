@@ -1,0 +1,121 @@
+.fifth-component{
+    height: 568px;
+    background-color: #EDF7FF;
+}
+
+.back-color{
+background-color: #EE3364;
+}
+
+.fifth-component > div:first-child{
+    width: 1200px;
+}
+.fifth-component .grid{
+    grid-template-columns:20px 139px 88px 58px 135px 116px 94px 452px 101px ;
+    grid-template-rows: 107px 75px 41px 153px 20px 29px 14px 25px;
+}
+
+.fifth-component h2{
+    font-size: 36px;
+    font-family: glacial indifference;  
+    font-weight: bold;
+}
+
+.fifth-component p{
+    font-size: 16px;
+    font-family: muli;  
+    color: #484848;
+}
+
+.fifth-component .name{
+    font-family: glacial indifference;  
+    font-size: 19px;
+    font-weight: bold;
+    grid-area: 6/3/7/5;
+}
+
+.fifth-component .bottomname{
+    font-family: glacial indifference;  
+    font-size: 14px;
+    color: #7E7E7E;
+    grid-area: 7/-8/8/-7;
+}
+
+.progress{
+    height: 10px;
+    width: 547px;
+    background-color: white;
+}
+.progress div{
+    height: 100%;
+}
+
+.fifth-component .grid h2:first-child{
+    grid-area: 2/2/3/6;
+    line-height: 41.5px;
+}
+
+.fifth-component .grid p::first-line{
+    letter-spacing: -0.32px;
+}
+.fifth-component .grid p{
+    grid-area: 4/2/5/7;
+    letter-spacing: -0.39px;
+    line-height: 26px;
+    margin-left: 2px;
+}
+
+.fifth-component .block{
+    grid-area: 5 / 2 / 9/3;
+    margin-left: 2px;
+}
+
+.fifth-component h2:not(:first-child){
+    grid-area: 2/8/3/9;
+}
+
+.fifth-component .grid div:last-child{
+    grid-area: 4/8/8/10;
+}
+
+.fifth-component .grid div:last-child span{
+    margin-left: 2px;
+    font-size: 16px;
+    font-family: glacial indifference;  
+}
+
+.gr > div:nth-child(1){
+    margin-top: 3px;
+}
+
+.gr > div:nth-child(1) .progress div{
+    width: 409px;
+}
+
+.gr >div .progress{
+    margin-top: 13px;
+}
+
+.gr >div:nth-child(2){
+    margin-top: 27px;
+}
+
+.gr >div:nth-child(2) .progress div{
+    width: 460px;
+}
+
+.gr >div:nth-child(3){
+    margin-top: 27px;
+}
+
+.gr >div:nth-child(3){
+    margin-top: 27px;
+}
+.gr >div:nth-child(3) .progress div{
+    width: 324px;
+}
+
+.gr span::after{
+    content: "76%";
+    margin-left: 369px;
+}
