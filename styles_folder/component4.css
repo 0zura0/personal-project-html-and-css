@@ -1,0 +1,92 @@
+.forth-component{
+    height: 862px;
+}
+
+.forth-component >div:first-child{
+width: 1170px;
+height: 723px;
+grid-template-rows: 131px 149px 378px 66px;
+}
+
+.forth-component > .grid> h2{
+    width: 650px;
+    height: 98px;
+    text-align: center;
+    font-size: 40px;
+    font-family: glacial indifference;
+    font-weight: bold;
+    justify-self: center;
+    grid-row-start: 2;
+    margin-left: 2%;
+}
+
+.forth-component h2 span{
+font-weight: normal;
+}
+
+.cont{
+    justify-content: space-between;
+    grid-row-start: 3;
+}
+.border{
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+.cont img{
+    height: 55px;
+    width: 55px;
+    color: red;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50% );
+}
+
+.cont>div{
+    height: 292px;
+    width: 362px;
+    display: grid;
+    grid-template-rows:42px 95px 56px 98px;
+    grid-template-columns: 37px 5px 303px;
+}
+
+.forth-component .cont h2{
+    font-size: 25px;
+    font-family: bold;
+    font-family: glacial indifference;
+    grid-row-start: 3;
+    grid-column-start: 3;
+} 
+
+
+.forth-component .cont p{
+    font-family: 'muli';
+    font-size: 15px;
+    color: #838383;
+    grid-area: 4/2/5/4;
+    margin-left: 4px;
+    letter-spacing: -0.37px;
+    line-height: 24px;
+}
+
+.forth-component button{
+    width: 203.5px;
+    height: 65.65px;
+    justify-self: center;
+    margin-left:1%;
+    grid-row-start: 4;
+    font-family: 'muli';
+    font-size: 14px;
+    color: white;
+    padding-bottom: 3px;
+    padding-left: 2px;
+    background-color: #ee3364;
+    letter-spacing: 0.35px;
+}
+
