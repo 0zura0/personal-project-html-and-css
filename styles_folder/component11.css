@@ -4,19 +4,15 @@
 }
 
 .eleventh-component > div{
-    width: 1158px;
+    width: 100vw;
     height: 100%;
     background-color: rgb(208, 208, 208,1);
 }
 
 .content{
     height: 100%;
-    width: 386px;
+    width: 100%;
     margin-left: 2px;
-    background-color: red;
-    border-width: 10px 15px 10px 17px;
-    border-style:solid ;
-    border-color: black;
 } 
 
 .eleventh-component .content span:nth-child(1){
@@ -43,4 +39,39 @@
 .eleventh-component img:nth-of-type(2){
     top:68%;
     left: 53%;
+}
+
+.forhover{
+    visibility: hidden;
+}
+
+.eleventh-component > div:nth-child(1){
+    background-color:#BBBBBB;
+}
+
+.eleventh-component > div:nth-child(2){
+    background-color:#D0D0D0;
+}
+
+.eleventh-component > div:nth-child(3){
+    background-color:#BBBBBB;
+}
+
+.eleventh-component > div:nth-child(4){
+    background-color:#D0D0D0;
+}
+
+.eleventh-component > div:nth-child(5){
+    background-color:#BBBBBB;
+}
+
+.eleventh-component div:hover>.forhover{
+    visibility: visible;
+}
+
+.eleventh-component div:hover>.content{
+    background-color: red;
+    border-width: 10px 15px 10px 17px;
+    border-style:solid ;
+    border-color: black;
 }

@@ -45,6 +45,9 @@ font-weight: normal;
     left: 50%;
     transform: translate(-50%, -50% );
 }
+.cont .diamond{
+    filter: invert(1);
+}
 
 .cont>div{
     height: 292px;
@@ -107,9 +110,9 @@ margin-left: 5px;
 }
 
 .cont div:nth-child(3) img{
-    height: 50px;
-    width: 61px;
-    padding-right: 106px;
+    height: 49px;
+    width: 66px;
+    padding-right: 16px;
 } 
 
 
@@ -124,4 +127,18 @@ border: 3px solid #ee3364;
 
 .forth-component .cont>div:hover .border{
     background-color: #ee3364;
-    }
+}
+
+.forth-component .diamondcard:hover .diamond{
+    filter: invert(0);
+}
+
+.forth-component .piggy:hover .piggy-bank {
+    filter: invert(1);
+}
+
+.forth-component .responsive-computer:hover .computer{
+    filter: invert(1);
+}
+
+

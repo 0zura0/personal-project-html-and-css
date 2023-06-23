@@ -42,14 +42,14 @@ color: #ee3364;
     letter-spacing: -0.35px;
 }
 
-.fa-facebook-f{
+.fourteenth-component .fa-facebook-f{
     color: #ee3364;
     grid-area: 4/-9/5/-8;
     font-size: 20px;
     margin-top: 4px;
     margin-left: 3px;
 }
-.fa-twitter{
+.fourteenth-component .fa-twitter{
     color: #ee3364;
     grid-area: 4/-8/5/-7;
     font-size: 20px;
@@ -69,7 +69,7 @@ color: #ee3364;
     margin-left: 3px;
 }
 
-.fa-pinterest{
+.fourteenth-component .fa-pinterest{
     grid-area: 4/-5/5/-4;
     color: #ee3364;
     font-size: 20px;
