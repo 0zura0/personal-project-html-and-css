@@ -1,0 +1,46 @@
+.eleventh-component{
+    height: 573px;
+    background-color: rgb(187, 187, 187,1);
+}
+
+.eleventh-component > div{
+    width: 1158px;
+    height: 100%;
+    background-color: rgb(208, 208, 208,1);
+}
+
+.content{
+    height: 100%;
+    width: 386px;
+    margin-left: 2px;
+    background-color: red;
+    border-width: 10px 15px 10px 17px;
+    border-style:solid ;
+    border-color: black;
+} 
+
+.eleventh-component .content span:nth-child(1){
+    font-family: glacial indifference;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    top:48.7%;
+    left: 22.8%;
+}
+
+.eleventh-component .content span:nth-child(2){
+    font-family: muli;
+    font-size: 18px;
+    color: white;
+    top: 57%;
+    left: 36.2%;
+}
+
+.eleventh-component img:nth-of-type(1){
+    top:67.6%;
+    left: 41%;
+}
+.eleventh-component img:nth-of-type(2){
+    top:68%;
+    left: 53%;
+}

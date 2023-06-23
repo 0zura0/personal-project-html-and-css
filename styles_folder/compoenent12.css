@@ -1,0 +1,115 @@
+.twelweth-component {
+    height: 708px;
+}
+
+
+.twelweth-component img:nth-child(1){
+top: 21%;
+left: 2.6%;
+}
+.twelweth-component img:nth-child(2){
+    top: 57.39%;
+    left: 83.4%;
+}
+
+
+.twelweth-component img:nth-child(3){
+    top:17.78%;
+    transform: rotate(-11deg);
+    height: 465px;
+    width: 468px;
+    left: 11.74%;
+}
+
+.twelweth-component span{
+    font-family: glacial indifference;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(43, 43, 43);
+}
+.twelweth-component span:first-of-type,
+.twelweth-component .const{
+    top: 193px;
+    left: 40.51%;
+    letter-spacing: -3px;
+    width: 690px;
+}
+
+.twelweth-component span:first-of-type>span{
+color: #ee3364;
+}
+
+.twelweth-component .const{
+    top: 242px;
+}
+
+.twelweth-component p{
+    font-family: muli;
+    font-size: 17px;
+    width: 735px;
+    top: 314.5px;
+    left: 40.6%;
+    line-height: 27.7px;
+    letter-spacing: -0.35px;
+}
+.twelweth-component form{
+    width: 727px;
+    height: 133px;
+    top: 414px;
+    left: 40.51%;
+    display: inline-block;
+}
+.sizes{
+    width: 350px;
+    height: 53px;
+    border: none;
+    background-color: rgb(202, 202, 202);
+}
+.inputs{
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23131313%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E");
+    background-repeat: no-repeat;
+    background-position: right 1.2rem top 50%;
+    background-size: 0.65rem auto;
+}
+.twelweth-component select{
+    padding-left: 31px;
+    padding-top: 1px;
+    letter-spacing: -0.0px;
+}
+
+.forphone{
+    margin-top: 76px;
+}
+
+input::placeholder{
+    padding-left: 30px;
+    position: relative;
+    top: 3px;
+}
+.twelweth-component form input:nth-child(3){
+    right: 2px;
+    top:1px;
+}
+
+.twelweth-component form input:nth-child(3)::placeholder{
+    position: relative;
+    top:0px;
+    left: -1px;
+}
+
+.twelweth-component form input:nth-child(4){
+    background-color: #ee3364;
+    right: 2px;
+    bottom: 3px;
+    letter-spacing: 0.7px;
+    padding-right: 5px;
+    color: white;
+    font-family: muli;
+    font-weight: bold;
+}
+
+.forphone:focus,
+.twelweth-component form input:nth-child(3):focus{
+    outline: 2px solid #ee3364;
+}
