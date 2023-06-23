@@ -1,0 +1,156 @@
+.tenth-component{
+    height: 941px;
+}
+
+.tenth-component>div{
+    width: 1176px;
+    height: 100%;
+}
+.tenth-component>div>span{
+    font-family: glacial indifference;
+    font-size: 13px;
+    font-weight: bold;
+    color: #ee3364;
+    left: 45.5%;
+    top: 14.5%;
+}
+
+.tenth-component>div>h1{
+    font-family: glacial indifference;
+    font-size: 65px;
+    font-weight: bold;
+    top: 16%;
+    left: 27.5%;
+}
+
+.tenth-component>div>div{
+    width: 370px;
+    height: 530px;
+    top: 29%;
+    border: 4px solid rgb(238, 238, 238);
+}
+
+.tenth-component >div>div>span:nth-child(1){
+    font-family: glacial indifference;
+    font-size: 30px;
+    font-weight: bold;
+    top: 12.87%;
+    left: 29%;
+}
+
+.tenth-component >div>div span:nth-child(2){
+    font-family: muli;
+    font-size: 13px;
+    color: #0B0B0B;
+    top: 21.3%;
+    left: 42%;
+    letter-spacing: 1px;
+
+}
+
+.tenth-component >div>div span:nth-child(3){
+    font-family: glacial indifference;
+    font-size: 37px;
+    font-weight: bold;
+    color: #0B0B0B;
+    top: 32.7%;
+    left: 23.5%;
+}
+
+.tenth-component >div>div span:nth-child(4){
+    font-family: glacial indifference;
+    font-size: 80px;
+    font-weight: bold;
+    color: #0B0B0B;
+    top: 25%;
+    left: 31.8%;
+}
+.tenth-component .outer{
+    font-size: 16px;
+    font-family: Cambay;
+    color: rgb(99,99,99,1);
+}
+
+.tenth-component .outer .inner{
+    color: rgb(135, 153, 163,1);
+}
+
+.tenth-component button{
+    height: 58px;
+    width: 180px;
+    background-color: rgb(30, 30, 30,1);
+    color: white;
+    font-family: muli;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    top: 74%;
+    left: 26%;
+    padding-bottom: 6px;
+    letter-spacing: 1.2px;
+    padding-right: 4px;
+}
+
+.tenth-component .outer:nth-last-of-type(3){
+    top: 52.1%;
+    left: 31%;
+}
+
+
+.tenth-component .outer:nth-last-of-type(2){
+    top: 57.9%;
+    left: 34.1%;
+}
+
+.tenth-component .outer:nth-last-of-type(1){
+    top: 63.6%;
+    left: 30.1%;
+}
+
+
+.tenth-component .subscriptions:nth-last-of-type(2){
+    left: 34%;
+}
+
+.tenth-component .subscriptions:nth-last-of-type(2)>span:nth-child(1){
+    left: 23%;
+}
+.tenth-component .subscriptions:nth-last-of-type(2)>span:nth-child(3){
+    left: 24.5%;
+}
+
+.tenth-component .subscriptions:nth-last-of-type(2)>span:nth-child(4){
+    left: 33%;
+}
+
+.tenth-component .subscriptions:nth-last-of-type(1){
+    left: 68%;
+}
+
+.tenth-component .subscriptions:nth-last-of-type(1)>span:nth-child(3){
+    left: 24.5%;
+}
+
+.tenth-component .subscriptions:nth-last-of-type(1)>span:nth-child(4){
+    left: 33%;
+}
+
+.inherit-color{
+    color: inherit;
+}
+
+.tenth-component .subscriptions:hover {
+    background-color: #ee3364;
+}
+
+.tenth-component .subscriptions:hover .absolute,
+.tenth-component .subscriptions:hover .inner {
+    color: white;
+}
+
+.tenth-component .subscriptions:hover button {
+    background-color: #ee3364;
+    border: 2px solid white;
+}
+
+
