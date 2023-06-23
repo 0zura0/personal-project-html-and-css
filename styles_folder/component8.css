@@ -1,0 +1,138 @@
+.eight-component{
+    height: 876px;
+}
+
+.eight-component > div:first-child{
+    width: 1197px;
+    height: 100%;
+}
+
+.lef, .righ{
+    height: 595px;
+    margin-top: 141px;
+    display:inline-block;
+}
+
+.lef{
+    width: 503px;
+    margin-right: 97px;
+}
+
+.lef div{
+    width: 426px;
+    height: 547px;
+    background-color: #FFA723;
+    box-shadow: 9px 15px 50px #0000004A;
+}
+
+.lef div:last-child{
+    position: absolute;
+    top: 8%;
+    left: 15.4%;
+}
+
+.righ{
+    width: 582px;
+    /* background-color: red; */
+    position: absolute;
+}
+
+.righ h2{
+    font-family: glacial indifference;  
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing:-0.9px;
+    line-height: 45px;
+}
+
+.righ h2:first-of-type{
+margin-top:43px;
+}
+
+.righ h2:last-of-type{
+    margin-bottom: 32px;
+}
+
+.righ p{
+    margin-left: 2px;
+    font-family: muli;
+    font-size: 16px;
+    color: #8B8B8B;
+    line-height: 25px;
+    letter-spacing: -0.35px;
+    margin-bottom: 18px;
+}
+
+
+
+
+
+.eight-component .righ span{
+    font-family: glacial indifference;  
+    font-size: 16px;
+    font-weight: bold;
+} 
+
+.eight-component .righ i{
+    background-color: red;
+    color: white;
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 2px;
+    line-height: 18px;
+    font-size: 12px;
+}
+
+.checks{
+    display: inline-block;
+    width: 17px;
+    height: 280px;
+}
+.checks i:nth-child(1){
+    margin-bottom:23px;
+}
+
+.checks i:nth-child(2){
+    margin-bottom:24px;
+}
+
+.checks i:nth-child(3){
+    margin-bottom:22px;
+}
+
+.checks i:nth-child(4){
+    margin-bottom:24px;
+}
+
+.spans{
+    display: inline-block;
+    width: 300px;
+    height: 280px;
+    position: absolute;
+    top: 272px;
+    left: 5.7%;
+}
+
+.spans span{
+    display: inline-block;
+    line-height: 42px;
+    letter-spacing: 0.48px;
+}
+
+.eight-component button{
+      width: 181px;
+      height: 51px;
+      border: none;
+      background-color: #ee3364;
+      color: white;
+      font-family: muli;
+      font-size: 14px;
+      font-weight: bold;
+      position: absolute;
+      top: 526px;
+      right: 68.5%;
+      padding-bottom: 3px;
+      padding-left: 1px;
+    }

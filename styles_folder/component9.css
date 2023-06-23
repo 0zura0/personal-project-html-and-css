@@ -1,0 +1,141 @@
+.ninth-component{
+    height: 2821px;
+}
+
+.ninth-component >div{
+    height: 100%;
+    width: 1170px;
+}
+
+.ninth-component>div>span{
+    font-family: glacial indifference;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ee3364;
+    left: 45.3%;
+    top: 4.8%;
+}
+
+.ninth-component div>h2{
+    font-size: 65px;
+    color: #222222;
+    font-family: glacial indifference;
+    top: 5.72%;
+    left: 22%;
+}
+
+.ninth-component .divs{
+    height: 2190px;
+    width: 100%;
+    margin-top: 25%;
+    flex-wrap: wrap;
+}
+.ninth-component .divs>div{
+    height: 730px;
+    width: 50%;
+    color: blue;
+    position: relative;
+}
+
+.ninth-component .divs div:nth-child(1){
+background-color: rgba(44, 44, 44,1);
+}
+
+.ninth-component .divs div:nth-child(2){
+    background-color:rgb(211, 211, 211,1);
+}
+
+.ninth-component .divs div:nth-child(3){
+    background-color:rgb(92, 92, 92,1);
+}
+
+.ninth-component .divs div:nth-child(4),
+.ninth-component .divs div:nth-child(6){
+    background-color:rgb(58, 58, 58,1);
+}
+
+.ninth-component .divs div:nth-child(5){
+    background-color:rgb(53, 53, 53,1);
+}
+
+.ninth-component .divs div:nth-child(5){
+    background-color:rgb(53, 53, 53,1);
+}
+.ninth-component .divs div span{
+    display: block;
+    color: white;
+}
+
+.ninth-component .divs div span:nth-child(1),
+.ninth-component .divs div span:nth-child(2){
+    font-family: glacial indifference;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.ninth-component .divs div span:nth-child(3){
+    color: #ee3364;
+    font-size: 14px;
+    font-family: glacial indifference;
+}
+
+.ninth-component .divs div span:nth-child(4),
+.ninth-component .divs div span:nth-child(5){
+    font-size: 20px;
+    font-family: muli;
+}
+
+.ninth-component .divs div span:nth-child(1){
+    top: 33.7%;
+    left: 29.2%;
+}
+
+.ninth-component .divs div span:nth-child(2){
+    top: 41.7%;
+    left: 24.18%;
+}
+
+.ninth-component .divs div span:nth-child(3){
+    top: 52.25%;
+    left: 33.7%;
+    letter-spacing: 1.05px;
+}
+
+.ninth-component .divs div span:nth-child(4){
+    top: 57.25%;
+    left: 22%;
+    letter-spacing: -0.42px;
+}
+
+.ninth-component .divs div span:nth-child(5){
+    top: 61%;
+    left: 22.8%;
+    letter-spacing: -0.42px;
+}
+
+.ninth-component .divs div img{
+    top: 69%;
+    left: 45.1%;
+}
+.hide{
+    visibility: hidden;
+}
+
+.ninth-component .divs div:hover > .hide{
+    visibility: visible;
+}
+
+.ninth-component button{
+    height: 58px;
+    width: 180px;
+    background-color: #ee3364;
+    border: none;
+    font-size: 14;
+    font-family: muli;
+    font-weight: bold;
+    color: white;
+    top: 93%;
+    left: 41.3%;
+    letter-spacing: 0.9px;
+    padding-bottom: 2px;
+}
