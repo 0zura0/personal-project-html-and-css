@@ -31,3 +31,7 @@
 .space-areound{
     justify-content: space-around;
 }
+
+.relative{
+    position: relative;
+}

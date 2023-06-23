@@ -1,0 +1,93 @@
+.seventh-component{
+  height: 310px;  
+  background-color: #1B1B1B;
+}
+
+.seventh-component > div{
+width: 1170px;
+height: 100%;
+
+}
+
+.seventh-component div:not(.seventh-component>div){
+    background-color: #2D2C2C;
+    width: 113px;
+    height: 113px;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+}
+
+.align{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 45px;
+    color: #FF434B;
+}
+
+.numb{
+    font-size: 57px;
+    font-weight: bold;
+    font-family: glacial indifference;  
+    color: white;
+}
+.format{
+    font-family: glacial indifference;  
+    font-size: 24px;
+    color: white;
+}
+
+.abs{
+    position: absolute;
+}
+
+.seventh-component .relative div:nth-child(1),
+.scale,
+.qween
+{
+    top: 27.5%;
+}
+
+.scale{
+    left: 24.15%;
+}
+
+.qween{
+    left: 48.5%;
+}
+
+.k45, .k38, .n5161{
+    top: 31%;
+}
+
+.k45{
+    left: 12%;
+}
+
+.k38{
+    left: 47%;
+}
+
+.n5161{
+    left: 80.7%;
+    top: 29.3%;
+}
+
+.task, .sall{
+    top: 53.15%;
+}
+.task{
+    left: 12%;
+}
+
+.sall{
+    left:47%;
+}
+
+.king{
+    left:80.7%;
+    top: 51.2%;
+}
+

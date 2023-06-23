@@ -1,0 +1,54 @@
+.sixth-component{
+    height: 642px;
+    background-color: red;
+}
+
+.sixth-component >div:first-child{
+    width: 1170px;
+    height: 100%;
+}
+
+.sixth-component span:first-child{
+    font-family: muli;
+    font-size: 16px;
+    color: white;
+    grid-area: 2/4/3/7;
+}
+
+
+.sixth-component span:nth-child(2),.sixth-component span:nth-child(3){
+    font-family: glacial indifference;  
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    line-height: 49px;
+    letter-spacing: -0.9px;
+}
+.sixth-component span:nth-child(2){
+    grid-area: 3/2/4/-1;
+}
+.sixth-component span:nth-child(3){
+    grid-area: 4/-5/5/7 ;
+}
+
+.but{
+    width: 24px;
+    height: 30px;
+    color: white;
+    grid-area: 5/-2/6/7;
+}
+
+.sixth-component span:last-child{
+    font-family: glacial indifference;  
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    grid-area: 6/-3/7/-1;
+}
+
+
+
+.sixth-component .grid{
+    grid-template-columns: 187px 26px 259px 32px 66px 450px;
+    grid-template-rows: 162px 35px 48px 135px 85px 30px;
+}
