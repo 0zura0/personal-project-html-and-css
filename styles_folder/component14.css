@@ -14,7 +14,7 @@
 .fourteenth-component div:nth-child(2){
     height: 16%;
     width: 100vw;
-    /* background-color: rgb(23, 23, 23,1); */
+    background-color: rgb(23, 23, 23,1);
 }
 
 .fourteenth-component p:nth-child(1){
